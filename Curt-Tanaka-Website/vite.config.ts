@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Personal-Website/', // Adjust this to match your repository name
+  base: '/', // Changed from '/Personal-Website/' to '/' for user repository
   plugins: [
     react(), 
     tailwindcss(),
